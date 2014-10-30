@@ -14,3 +14,23 @@ fi
 
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
+# Aliases
+
+# Editor aliases
+alias edit='subl ~/.zprezto'
+alias sub='subl .'
+
+# GIT ALIASES
+alias go='git checkout'
+alias st='git status'
+alias gp='git pull --rebase'
+alias gph='git push heroku master'
+
+# Tail the log
+alias tlog='tail -f log/development.log'
+
+# Jekyll
+alias jekyll='bundle exec jekyll'
+alias jnew='thor jekyll:new'
+
+alias s='spring'
