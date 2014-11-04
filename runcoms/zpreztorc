@@ -34,7 +34,8 @@ zstyle ':prezto:load' pmodule \
   'completion' \
   'git' \
   'prompt' \
-  'history-substring-search'
+  'history-substring-search' \
+  'osx'
 
 #
 # Autosuggestions
