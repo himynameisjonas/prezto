@@ -17,7 +17,6 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 # Aliases
 alias audiofix="sudo kill `ps -ax | grep 'coreaudiod' | grep 'sbin' |awk '{print $1}'`"
 
-
 # Editor aliases
 alias edit='subl ~/.zprezto'
 alias sub='subl .'
@@ -29,10 +28,11 @@ alias st='git status -sb'
 alias gp='git pull --rebase'
 alias gph='git push heroku master'
 
-# Rails
+# Ruby/Rails
 alias tlog='tail -f log/development.log'
 alias s='spring'
 alias sc='spring rails console'
 alias sr='spring rspec'
+alias be='bundle exec'
 
 alias jnew='thor jekyll:new'
