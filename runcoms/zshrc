@@ -18,7 +18,7 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 alias audiofix="sudo kill `ps -ax | grep 'coreaudiod' | grep 'sbin' |awk '{print $1}'`"
 
 # Editor aliases
-alias edit='subl ~/.zprezto'
+alias edit='cd ~/.zprezto && subl .'
 alias sub='subl .'
 
 # GIT ALIASES
