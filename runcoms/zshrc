@@ -38,3 +38,6 @@ alias sr='spring rspec'
 alias be='bundle exec'
 
 alias jnew='thor jekyll:new'
+
+alias teamtailor_start='cd ~/code/teamtailor && heroku local -f Procfile.dev'
+alias teamtailor_console='heroku run console -a teamtailor'
