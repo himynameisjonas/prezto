@@ -20,8 +20,9 @@ alias audiofix="sudo kill `ps -ax | grep 'coreaudiod' | grep 'sbin' |awk '{print
 alias c="cd"
 
 # Editor aliases
-alias edit='cd ~/.zprezto && subl .'
+alias edit='cd ~/.zprezto && atom .'
 alias sub='subl .'
+alias atm='atom .'
 
 # GIT ALIASES
 alias gs='git-up'
