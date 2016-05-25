@@ -26,3 +26,5 @@
   default = simple
 [merge]
   ff = false
+[rebase]
+	autostash = true
