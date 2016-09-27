@@ -22,7 +22,7 @@ alias c="cd"
 # Editor aliases
 alias edit='cd ~/.zprezto && atom .'
 alias sub='subl .'
-alias atm='atom .'
+alias atm='atom . --enable-gpu-rasterization'
 
 # GIT ALIASES
 alias gs='git-up'
