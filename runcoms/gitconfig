@@ -1,12 +1,13 @@
 [user]
-  name = Jonas Brusman
-  email = himynameisjonas@gmail.com
+	name = Jonas Brusman
+	email = himynameisjonas@gmail.com
 [alias]
   co = checkout
   st = status
   uncommit = reset --soft HEAD^
   unpushed = !git log origin/`git symbolic-ref HEAD 2> /dev/null | awk -F"/" '{ print $3 }'`..
   latest = for-each-ref --sort=-committerdate refs/heads --format='%(committerdate:relative)\t%(refname:short)'
+	pair = duo
 [color]
   diff = auto
   status = auto
