@@ -43,5 +43,8 @@ alias jnew='thor jekyll:new'
 alias teamtailor_start='cd ~/code/teamtailor && heroku local -f Procfile.dev'
 alias teamtailor_console='heroku run console -a teamtailor'
 
+autoload -U zmv
+alias mmv='noglob zmv -W'
+
 export NVM_DIR="/Users/jonas/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
