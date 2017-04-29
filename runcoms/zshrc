@@ -48,3 +48,7 @@ alias mmv='noglob zmv -W'
 
 export NVM_DIR="/Users/jonas/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
+# tabtab source for yarn package
+# uninstall by removing these lines or running `tabtab uninstall yarn`
+[[ -f /Users/jonas/.config/yarn/global/node_modules/tabtab/.completions/yarn.zsh ]] && . /Users/jonas/.config/yarn/global/node_modules/tabtab/.completions/yarn.zsh
